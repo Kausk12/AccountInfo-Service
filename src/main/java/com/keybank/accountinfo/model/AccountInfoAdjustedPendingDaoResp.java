@@ -11,6 +11,7 @@ import java.util.concurrent.CompletableFuture;
  * Description:
 
  */
+@entity
 public class AccountInfoAdjustedPendingDaoResp  extends CompletableFuture<AccountInfoAdjustedPendingDaoResp>{
 	
 	private String respCode;
